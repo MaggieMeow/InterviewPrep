@@ -76,34 +76,52 @@ Don’t put parentheses after a function called in event handler (like use showM
 
 #### Mouse events
 click 
-focusing 
+
+focusing
+
 mousedown 
+
 mousemove 
+
 mouseover 
+
 mouseenter // when mouse is positioned over the element 
+
 dblclick 
+
 focus out 
+
 mouseup 
+
 mouseout 
+
 mouseleave 
 
 Though they operate the same way, however, the **mouseenter** event only triggers when the mouse pointer enters the selected element. The **mouseover** event is triggered if a mouse pointer enters any child elements as well.
 
 #### Keyboard events
 keypress
+
 keydown
+
 keyup // triggered when user stops typing
 
 #### Form Events
 blur
+
 select
+
 change
+
 focus
+
 submit
 
 #### Fading
 fadeIn()
+
 fadeOut()
+
 fadeToggle()
 
 event.stopPropagation() // when an event happens, it does not bubble up to the ancestors, but does not prevent default behaviour of browser
@@ -113,8 +131,10 @@ event.preventDefault(); // prevents default behaviours of browser (like popping 
 ### CSS
 
 .css(‘border-color’, ‘red’);
+
 .css({‘border-color’: ‘red’, 
 	‘background-color’: ‘someColor’});
+	
 .show() to reverse display: none
  
 Preferably, use addClass/toggleClass to keep the styling in the style sheet.
