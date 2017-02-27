@@ -75,17 +75,17 @@ Don’t put parentheses after a function called in event handler (like use showM
 
 
 #### Mouse events
-click
-focusing
-mousedown
-mousemove
-mouseover
-mouseenter // when mouse is positioned over the element
-dblclick
-focus out
-mouseup
-mouseout
-mouseleave
+click 
+focusing 
+mousedown 
+mousemove 
+mouseover 
+mouseenter // when mouse is positioned over the element 
+dblclick 
+focus out 
+mouseup 
+mouseout 
+mouseleave 
 
 Though they operate the same way, however, the **mouseenter** event only triggers when the mouse pointer enters the selected element. The **mouseover** event is triggered if a mouse pointer enters any child elements as well.
 
