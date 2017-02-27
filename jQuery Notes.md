@@ -112,9 +112,9 @@ event.preventDefault(); // prevents default behaviours of browser (like popping 
 
 ### CSS
 
-.css(‘border-color’, ‘red’)
+.css(‘border-color’, ‘red’);
 .css({‘border-color’: ‘red’, 
-				‘background-color’: ‘someColor’})
+	‘background-color’: ‘someColor’});
 .show() to reverse display: none
  
 Preferably, use addClass/toggleClass to keep the styling in the style sheet.
