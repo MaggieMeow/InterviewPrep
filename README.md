@@ -7,3 +7,4 @@ Resources and notes for interview preparation. Feel free to contribute to and us
 - SQL
 - JavaScript
 - JQuery
+- Webpack and Node.js
